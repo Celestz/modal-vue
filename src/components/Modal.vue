@@ -31,5 +31,11 @@
 </script>
 
 <style scoped>
-
+  .modal-content {
+    min-height: 85vh;
+  }
+  .modal-body {
+    height: 40vw;
+    overflow-y: scroll;
+  }
 </style>
