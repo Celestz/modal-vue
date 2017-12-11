@@ -30,7 +30,7 @@
   }
 </script>
 
-<style scoped>
+<style>
   .modal-content {
     min-height: 85vh;
   }
