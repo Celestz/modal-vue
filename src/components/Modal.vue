@@ -1,7 +1,7 @@
 <template>
   <div :class="containerClass">
     <div :class="{modal: true, in: showModal}" :style="{ display: showModal ? 'block' : 'none' }">
-      <div class="modal-dialog">
+      <div class="modal-dialog djDialog">
         <div class="modal-content">
           <div v-if="this.$slots.header || closeAction" class="modal-header">
             <button class="close" @click="closeAction">x</button>
@@ -30,7 +30,7 @@
   }
 </script>
 
-<style>
+<style lang="scss" scoped>
   .modal-content {
     min-height: 85vh;
   }
